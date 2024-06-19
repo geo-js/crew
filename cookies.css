@@ -1,0 +1,178 @@
+.cookiesjsr-banner {
+  background-color: #00859B;
+  color: #fff;
+  align-items: flex-start;
+  -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.30);
+  -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.30);
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.30);
+
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) !important;
+  max-width: 460px;
+  height: fit-content;
+  flex-direction: column !important;
+}
+
+.cookiesjsr-banner--action,
+.cookiesjsr-banner--info {
+  width: 100% !important;
+}
+
+.cookiesjsr-banner a {
+  color: #fff;
+}
+
+.cookiesjsr-banner a:hover {
+  color: #fff;
+}
+
+.cookiesjsr-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.cookiesjsr-btn.important {
+  background-color: white;
+  color: #00859B;
+}
+
+.cookiesjsr-btn.invert {
+  background-color: white;
+  color: #00859B;
+  border-color: white;
+}
+
+.cookiesjsr-service-group--tab {
+  border-bottom-color: white;
+}
+
+.cookiesjsr-service-group.active .cookiesjsr-service-group--tab {
+  background-color: white;
+  color: #00859B;
+
+}
+
+.cookiesjsr-service-group.active .cookiesjsr-service-group--content {
+  background-color: white;
+  color: #726E6E;
+}
+
+.cookiesjsr-service--description h3 {
+  color: #726E6E;
+}
+
+.cookiesjsr-service--links a, .cookiesjsr-service--links a:active, .cookiesjsr-service--links a:hover, .cookiesjsr-service--links a:visited {
+  color: #726E6E;
+}
+
+.cookiesjsr-btn.important.invert {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.cookies-fallback--btn {
+  background-color: #00859B;
+}
+
+.cookiesjsr-banner--text {
+  font-size: .8rem;
+}
+
+.cookiesjsr-links.links--row li:before {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  .cookiesjsr-banner--info {
+    width: 60%;
+  }
+
+  .cookiesjsr-banner--action {
+    width: 40%;
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+
+  .cookiesjsr-banner--info {
+    width: 75%;
+  }
+
+  .cookiesjsr-banner--action {
+    width: 25%;
+    flex-direction: column;
+  }
+}
+
+.cookiesjsr-service-group--intro {
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.cookiesjsr-layer {
+  background-color: #00859B;
+}
+
+.cookiesjsr-layer--header {
+  background-color: #00859B;
+  color: #fff;
+  border-bottom-color: white;
+}
+
+.cookiesjsr-layer--title {
+  color: #fff;
+}
+
+.cookiesjsr-layer--body {
+  background-color: #00859B;
+}
+
+.cookiesjsr-service-group--tab {
+  background-color: #00859B;
+  color: #fff;
+}
+
+.cookiesjsr-layer--footer {
+  background-color: #00859B;
+}
+
+.cookiesjsr-layer--label-all {
+  color: #fff;
+  border-top-color: red;
+}
+
+.cookies-fallback .button {
+  margin-top: 1rem;
+}
+
+.cookiesjsr-banner--action button {
+  order: 2;
+  width: auto;
+}
+.cookiesjsr-banner--action button.allowAll {
+  order: 0;
+}
+.cookiesjsr-banner--action button.denyAll {
+  order: 1;
+  background: transparent;
+  color: white;
+}
+
+.cookiesjsr-layer--actions button.save {
+  order: 2;
+}
+.cookiesjsr-layer--actions button.denyAll {
+  order: 1;
+  background: transparent;
+  color: white;
+}
+.cookiesjsr-layer--actions button.allowAll {
+  order: 0;
+}
