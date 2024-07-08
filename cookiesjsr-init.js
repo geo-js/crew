@@ -37,7 +37,25 @@
  
      for (var sid in services) {
        if (services[sid] === true) {
- 
+          
+          if (sid === 'clarity_tag') {
+              if (!mayrlife_cookies_is_event_in_data_layer('borlabsCookieOptInClarityTag')) {
+                window.dataLayer.push({
+                  event: 'borlabsCookieOptInClarityTag',
+                  borlabsCookieOptInClarityConsent: true
+                });
+              }
+            }
+
+            if (sid === 'klaviyo') {
+              if (!mayrlife_cookies_is_event_in_data_layer('borlabsCookieOptInKlaviyoTag')) {
+                window.dataLayer.push({
+                  event: 'borlabsCookieOptInKlaviyoTag',
+                  borlabsCookieOptInKlaviyoConsent: true
+                });
+              }
+            }
+         
          if (sid === 'facebook_pixel') {
            if (!mayrlife_cookies_is_event_in_data_layer('borlabsCookieOptInFacebookPixel')) {
              window.dataLayer.push({
